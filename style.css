@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    margin-top: 5px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    width: 100%;
+} 
+.card > div {
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+.btn1{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(50, 64, 196);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1.05s;
+}
+.btn1:hover{
+    background-color: blueviolet;
+    transition: 1.05s;
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+.p1{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+    top: -20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1.05s;
+}
+.p1:hover{
+    background-color: black;
+    transition: 1.05s;
+}
