@@ -234,6 +234,8 @@ function jewelery(){
    renderList(jewelery)
 };
 
+
+
 function renderList(tavars){
    card.innerHTML = ''
    tavars.forEach((tavar) => {
